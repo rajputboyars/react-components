@@ -11,33 +11,39 @@ const Tabs = ({ tabs, orientation }) => {
   const isVertical = orientation === "vertical";
 
   return (
-    <div className={`tabs panelcontainer ${isVertical ? "flex" : "flex flex-col"}`}>
+    <div
+      className={`tabs panelcontainer ${isVertical ? "flex" : "flex flex-col"}`}
+    >
       <div
-        className={`cmp-tabs ${isVertical ? "cmp-tabs-vertical" : "cmp-tabs-horizontal"}`}
+        className={`cmp-tabs ${
+          isVertical ? "cmp-tabs-vertical" : "cmp-tabs-horizontal"
+        }`}
         role="tablist"
       >
-        <ol
-          className={`cmp-tabs__tablist ${isVertical ? "flex flex-col border-r" : "flex border-b"}`}
+        <div
+          className={`cmp-tabs__tablist ${
+            isVertical ? "flex flex-col border-r" : "flex border-b"
+          }`}
         >
-          {tabs.map((tab) => (
-            <li
+          {tabs.map((tab, index) => (
+            <button
               key={tab.id}
               role="tab"
               id={`${tab.id}-tab`}
               className={`cmp-tabs__tab px-4 py-2 cursor-pointer text-nowrap ${
                 activeTab === tab.id
-                  ? "text-blue-500 border-b-2 border-blue-500"
+                  ? "text-blue-500 border-blue-500"
                   : "text-gray-500"
-              } ${isVertical ? "border-b-0 border-r" : ""}`}
+              } ${isVertical ? "border-b-0 border-r" : "border-b-2"}`}
               aria-controls={`${tab.id}-tabpanel`}
-              tabIndex={activeTab === tab.id ? 0 : -1}
+              tabIndex={0}
               aria-selected={activeTab === tab.id}
               onClick={() => handleTabClick(tab.id)}
             >
               {tab.title}
-            </li>
+            </button>
           ))}
-        </ol>
+        </div>
       </div>
       <div className={`cmp-tabs__panels ${isVertical ? "pl-4" : "pt-4"}`}>
         {tabs.map((tab) => (

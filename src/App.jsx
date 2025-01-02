@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <Tabs/>
-    {/* <Tabs orientation={"vertical"}/> */}
+    <Tabs orientation={"vertical"}/>
     </>
   )
 }

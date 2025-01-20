@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Gold Plated Necklace",
+      "price": 29.99,
+      "quantity": 50,
+      "sale": 25,
+      "stock": 100,
+      "imageUrl": "https://example.com/images/necklace1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Silver Hoop Earrings",
+      "price": 19.99,
+      "quantity": 40,
+      "sale": 18,
+      "stock": 80,
+      "imageUrl": "https://example.com/images/earrings1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pearl Drop Earrings",
+      "price": 15.99,
+      "quantity": 60,
+      "sale": 22,
+      "stock": 120,
+      "imageUrl": "https://example.com/images/earrings2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choker Pendant Necklace",
+      "price": 25.99,
+      "quantity": 35,
+      "sale": 15,
+      "stock": 70,
+      "imageUrl": "https://example.com/images/necklace2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gold Plated Bangles Set",
+      "price": 45.99,
+      "quantity": 80,
+      "sale": 30,
+      "stock": 150,
+      "imageUrl": "https://example.com/images/bangles1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Crystal Studded Bracelet",
+      "price": 34.99,
+      "quantity": 55,
+      "sale": 20,
+      "stock": 110,
+      "imageUrl": "https://example.com/images/bracelet1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vintage Ring with Gemstones",
+      "price": 49.99,
+      "quantity": 30,
+      "sale": 12,
+      "stock": 60,
+      "imageUrl": "https://example.com/images/ring1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sapphire Earrings",
+      "price": 27.99,
+      "quantity": 45,
+      "sale": 18,
+      "stock": 95,
+      "imageUrl": "https://example.com/images/earrings3.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Diamond Look Pendant",
+      "price": 39.99,
+      "quantity": 40,
+      "sale": 20,
+      "stock": 80,
+      "imageUrl": "https://example.com/images/pendant1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sterling Silver Ring",
+      "price": 22.99,
+      "quantity": 50,
+      "sale": 25,
+      "stock": 100,
+      "imageUrl": "https://example.com/images/ring2.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Gold Plated Earrings Set",
+      "price": 35.99,
+      "quantity": 25,
+      "sale": 10,
+      "stock": 60,
+      "imageUrl": "https://example.com/images/earrings4.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Copper Choker Necklace",
+      "price": 18.99,
+      "quantity": 70,
+      "sale": 30,
+      "stock": 140,
+      "imageUrl": "https://example.com/images/necklace3.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Rose Gold Bracelet",
+      "price": 23.99,
+      "quantity": 50,
+      "sale": 20,
+      "stock": 100,
+      "imageUrl": "https://example.com/images/bracelet2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Diamond Look Ring",
+      "price": 59.99,
+      "quantity": 15,
+      "sale": 5,
+      "stock": 30,
+      "imageUrl": "https://example.com/images/ring3.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Bohemian Earrings",
+      "price": 14.99,
+      "quantity": 45,
+      "sale": 18,
+      "stock": 90,
+      "imageUrl": "https://example.com/images/earrings5.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Swarovski Crystal Necklace",
+      "price": 32.99,
+      "quantity": 60,
+      "sale": 25,
+      "stock": 120,
+      "imageUrl": "https://example.com/images/necklace4.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Gold Plated Cufflinks",
+      "price": 27.99,
+      "quantity": 20,
+      "sale": 8,
+      "stock": 50,
+      "imageUrl": "https://example.com/images/cufflinks1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Chain Necklace with Pendant",
+      "price": 19.99,
+      "quantity": 55,
+      "sale": 22,
+      "stock": 110,
+      "imageUrl": "https://example.com/images/necklace5.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Luxury Silver Bracelet",
+      "price": 39.99,
+      "quantity": 25,
+      "sale": 10,
+      "stock": 50,
+      "imageUrl": "https://example.com/images/bracelet3.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Blue Sapphire Necklace",
+      "price": 49.99,
+      "quantity": 30,
+      "sale": 15,
+      "stock": 60,
+      "imageUrl": "https://example.com/images/necklace6.jpg"
+    }
+  ]
+  

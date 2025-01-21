@@ -18,10 +18,12 @@ const Sidebar = () => {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <div className="bg-gray-800 text-white w-64 h-screen p-4 space-y-6">
+      <div className="bg-gray-800 text-white w-64 h-[87vh] overflow-auto p-4 space-y-6" style={{
+        scrollbarWidth:"none"
+      }}>
         {/* Dashboard Section */}
         <div>
-          <Link to="/dashboard" className="block text-lg font-semibold p-2 hover:bg-gray-700 rounded">
+          <Link to="/admin" className="block text-lg font-semibold p-2 hover:bg-gray-700 rounded">
             Dashboard
           </Link>
         </div>
@@ -37,12 +39,23 @@ const Sidebar = () => {
           </div>
           {ecommerceOpen && (
             <div className="ml-4 space-y-2">
-              <Link to="/products" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">All Products</Link>
-              <Link to="/add-product" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Add Product</Link>
-              <Link to="/product-details" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Product Details</Link>
+              <Link to="/admin/productmanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">All Products</Link>
+              <Link to="/admin/usermanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">User</Link>
+              <Link to="/admin/ordermanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Order</Link>
+              <Link to="/admin/inventorymanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Inventory</Link>
+              <Link to="/admin/categorymanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Category</Link>
+              <Link to="/admin/couponmanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Coupon</Link>
+              <Link to="/admin/reportsandanalytics" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Reports & Analytics</Link>
+              <Link to="/admin/paymentmanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Payment Management</Link>
+              <Link to="/admin/shippingmanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Shipping Management</Link>
+              <Link to="/admin/sitesettings" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Site Settings</Link>
+              <Link to="/admin/contentmanagement" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Content Management</Link>
+              <Link to="/admin/securityandauthentication" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Security & Authentication</Link>
+              <Link to="/admin/activitylogs" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Activity Logs</Link>
+              <Link to="/admin/notificationsandalerts" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Notifications & Alerts</Link>
               
               {/* Category Section */}
-              <div>
+              {/* <div>
                 <div
                   className="flex justify-between items-center p-2 cursor-pointer hover:bg-gray-700 rounded"
                   onClick={() => toggleDropdown(setCategoryOpen, categoryOpen)}
@@ -56,10 +69,10 @@ const Sidebar = () => {
                     <Link to="/add-category" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Add New Category</Link>
                   </div>
                 )}
-              </div>
+              </div> */}
 
               {/* Attributes Section */}
-              <div>
+              {/* <div>
                 <div
                   className="flex justify-between items-center p-2 cursor-pointer hover:bg-gray-700 rounded"
                   onClick={() => toggleDropdown(setAttributeOpen, attributeOpen)}
@@ -73,10 +86,10 @@ const Sidebar = () => {
                     <Link to="/add-attribute" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Add New Attribute</Link>
                   </div>
                 )}
-              </div>
+              </div> */}
 
               {/* Orders Section */}
-              <div>
+              {/* <div>
                 <div
                   className="flex justify-between items-center p-2 cursor-pointer hover:bg-gray-700 rounded"
                   onClick={() => toggleDropdown(setOrderOpen, orderOpen)}
@@ -91,13 +104,13 @@ const Sidebar = () => {
                     <Link to="/order-tracking" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Order Tracking</Link>
                   </div>
                 )}
-              </div>
+              </div> */}
             </div>
           )}
         </div>
 
         {/* Users Section */}
-        <div>
+        {/* <div>
           <div
             className="flex justify-between items-center p-2 cursor-pointer hover:bg-gray-700 rounded"
             onClick={() => toggleDropdown(setUserOpen, userOpen)}
@@ -113,7 +126,7 @@ const Sidebar = () => {
               <Link to="/sign-up" className="block text-gray-300 p-2 hover:bg-gray-600 rounded">Sign Up</Link>
             </div>
           )}
-        </div>
+        </div> */}
 
         {/* Roles Section */}
         <div>

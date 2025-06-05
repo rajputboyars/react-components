@@ -1,0 +1,30 @@
+{
+    "title": "SEARCH FOR YOUR BRANDS",
+    "filters": [
+      "Popular",
+      "Traditional Snacks",
+      "Western Snacks",
+      "Ready to Eat",
+      "Sweets",
+      "Frozen Range",
+      "Beverages",
+      "Bakery"
+    ],
+    "brands": [
+      {
+        "name": "Nut Roast",
+        "image": "nut-roast-image.jpg",
+        "link": "#"
+      },
+      {
+        "name": "Nutty Factory",
+        "image": "nutty-factory-image.jpg",
+        "link": "#"
+      },
+      {
+        "name": "Panga",
+        "image": "panga-image.jpg",
+        "link": "#"
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+    "title": "BRANDS BUILT ON TRUST",
+    "description": "Explore the diverse range of Haldiram's sub-brands, each crafted to bring you authentic tastes from every corner of India.",
+    "downloadButton": 
+    {
+        "text": "Download Brochure",
+        "icon": "download",
+        "link": "#"
+    },
+    "exploreButton": 
+      {
+        "text": "Explore the Brands",
+        "icon": "circle",
+        "link": "#"
+      }
+    
+  }

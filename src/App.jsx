@@ -5,26 +5,28 @@ import React from "react";
 // import ForgotPassword from "./components/ForgotPassword";
 // import ProductDetailPage from "./components/ProductDetailPage";
 // import CounterSection from "./components/CounterSection";
-import AdminDashboard from "./pages/AdminDashboard";
-import VideoWithText from "./components/aditya-birla/VideoWithText";
-import Card from "./components/aditya-birla/Card";
-import data from "./data/brandSection.json";
-import brandData from "./data/brandsData.json";
+// import AdminDashboard from "./pages/AdminDashboard";
+// import VideoWithText from "./components/aditya-birla/VideoWithText";
+// import Card from "./components/aditya-birla/Card";
+// import data from "./data/brandSection.json";
+// import brandData from "./data/brandsData.json";
 
-import Heading from "./components/aditya-birla/Heading";
-import FinancialLiteracy from "./components/aditya-birla/FinancialLiteracy";
-import ScrollAnimation from "./components/animation/ScrollAnimation";
-import MergerSynergies from "./components/haldiram/MergerSynergies";
-import BrandSection from "./components/haldiram/BrandSection";
-import BrandSearchSection from "./components/haldiram/BrandSearchSection";
+// import Heading from "./components/aditya-birla/Heading";
+// import FinancialLiteracy from "./components/aditya-birla/FinancialLiteracy";
+// import ScrollAnimation from "./components/animation/ScrollAnimation";
+// import MergerSynergies from "./components/haldiram/MergerSynergies";
+// import BrandSection from "./components/haldiram/BrandSection";
+// import BrandSearchSection from "./components/haldiram/BrandSearchSection";
 // import Header from "./components/medica/header/Header";
-import RecentClaims from "./components/medica/RecentClaims";
-import LineChartExample from "./components/rechartexamples/LineChartExample";
-import Header from "./components/medica/header/Header";
+// import RecentClaims from "./components/medica/RecentClaims";
+// import LineChartExample from "./components/rechartexamples/LineChartExample";
+// import Header from "./components/medica/header/Header";
+import HealthCard from "./components/medica/healthCards/HealthCards";
+import NavLinksClient from "./components/medica/navlinks/NavLinks.client";
 // import Header from "./components/medica/header2/Header";
 // import LineChartExample from "./components/rechartexamples/LineChartExample";
 // import Navbar from "./Navbar";
-
+import data from "./medica.json"
 const App = () => {
   //  const counterSection = {
   //   title: 'Adobe + Ranosys: Powering brands with our award-winning expertise',
@@ -86,7 +88,24 @@ const App = () => {
       {/* <MergerSynergies/> */}
       {/* <BrandSection {...data}/> */}
       {/* <BrandSearchSection {...brandData} /> */}
-      <Header/>
+      {/* <Header/> */}
+      {/* <nav className="bg-white p-4 shadow-md">
+        <ul className="flex space-x-6 text-sm items-center text-[#22272D] ">
+          <li>
+            <span className="border-b border-[#22272D] pb-0.5">Document Hub</span>
+          </li>
+          <li className="relative space-x-2">
+            <span className=" border-b border-[#22272D] pb-0.5">My Account</span>
+            <span className="ml-1 text-gray-600">▼</span>
+          </li>
+          <li className="relative space-x-2">
+            <span className=" border-b border-[#22272D] pb-0.5">English</span>
+            <span className="ml-1 text-gray-600">▼</span>
+          </li>
+        </ul>
+      </nav> */}
+      <HealthCard />
+      <NavLinksClient navItem={data}/>
       {/* <LineChartExample/> */}
       {/* <RecentClaims/> */}
     </>
